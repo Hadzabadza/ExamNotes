@@ -1,0 +1,12 @@
+-Difference between polar/cartesian coordinates?
+Polar is based on 2 properties - direction and distance, cartesian is based on axes.
+-How to convert between the two?
+Using trigonometric functions.
+Cartesian - polar: atan of angle (depending on the quadrants).
+Polar - cartesian: take cosine + sin of an angle and multiply the hypotenuse by them.
+
+-What is the most interesting and challenging aspect of the Mandelbrot set algorithm?
+I find the use of couples numbers in the algorithm the most interesting part as it makes me think in a new way.
+
+-How do we get the distance between 2 X-D points?
+Pythagoras.
