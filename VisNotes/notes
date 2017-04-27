@@ -6,7 +6,11 @@ Cartesian - polar: atan of angle (depending on the quadrants).
 Polar - cartesian: take cosine + sin of an angle and multiply the hypotenuse by them.
 
 -What is the most interesting and challenging aspect of the Mandelbrot set algorithm?
-I find the use of couples numbers in the algorithm the most interesting part as it makes me think in a new way.
+I find the use of complex numbers in the algorithm the most interesting part as it makes me think in a new way.
 
 -How do we get the distance between 2 X-D points?
-Pythagoras.
+Pythagoras:
+sqrt((n1*n1)+(n2*n2)+…+(nk*nk))
+
+-What is a platonic solid?
+A platonic solid is a shape in which every edge has an exact same angle between all adjacent edges.
