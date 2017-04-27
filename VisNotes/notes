@@ -32,7 +32,7 @@ Magnitude is the distance between the origin and a vector.
 
 —How do we calculate a unit vector?
 We can get a unit vector by dividing the vector by it’s magnitude. 
-v(x,y)=(x/sqrt((x^2)+(y^2)),y/sqrt((x^2)+(y^2)))
+v(x,y)=(x/sqrt((x^2)+(y^2)),y/sqrt((x^2)+(y^2))) and so on for more dimensional vectors. 
 
 -Can you explain what a bump map is?
 It’s a collection of normals applied in such a way as to make an impression of small irregularities or bumps (hence the name) on a shape without having to use comparatively more expensive vertices.
