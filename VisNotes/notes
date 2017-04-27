@@ -11,7 +11,7 @@ How do you square a complex number? LOOKUP
 
 -How do we get the distance between 2 X-D points?
 Pythagoras:
-sqrt((n1*n1)+(n2*n2)+…+(nk*nk))
+sqrt((a1-b1)^2+(a2-b2)^2+…+(aN-bN)^2)
 
 -What’s a platonic solid?
 Platonic solids are tetrahedron, cube, octahedron, dodecahedron and icosahedron. The properties of edges in these shapes are: all vertices have the same amount of edges meeting at them and all the edges have the same angle and between the adjacent ones while all having the same length.
