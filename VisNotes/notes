@@ -5,12 +5,34 @@ Using trigonometric functions.
 Cartesian - polar: atan of angle (depending on the quadrants).
 Polar - cartesian: take cosine + sin of an angle and multiply the hypotenuse by them.
 
--What is the most interesting and challenging aspect of the Mandelbrot set algorithm?
+-What’s the most interesting and challenging aspect of the Mandelbrot set algorithm?
 I find the use of complex numbers in the algorithm the most interesting part as it makes me think in a new way.
 
 -How do we get the distance between 2 X-D points?
 Pythagoras:
 sqrt((n1*n1)+(n2*n2)+…+(nk*nk))
 
--What is a platonic solid?
-A platonic solid is a shape in which every edge has an exact same angle between all adjacent edges.
+-What’s a platonic solid?
+Platonic solids are tetrahedron, cube, octahedron, dodecahedron and icosahedron. The properties of edges in these shapes are: all vertices have the same amount of edges meeting at them and all the edges have the same angle and between the adjacent ones while all having the same length.
+
+-What’s a good way of thinking about the structure of a sphere?
+It’s a platonic solid with infinite vertices.
+
+-What’s a normal?
+A normal is a direction assigned to a vertex/surface which defines it’s colour depending on the angle of lighting sources. Basically a reflection angle.
+
+-What’s the difference between UV and ST?
+UV mapping uses coordinates of vertices which form a face to apply a texture to. ST are transformed UV coordinates, which define an area of a texture to “cut from”.
+
+-What’s the difference between difference and distance?
+Difference is the angle between two vectors while distance is a vector which is a subtraction of two.??????????
+
+-With respect to distances between vectors, what is the magnitude?
+Magnitude is the distance between the origin and a vector. 
+
+—How do we calculate a unit vector?
+We can get a unit vector by dividing the vector by it’s magnitude. 
+v(x,y)=(x/sqrt((x^2)+(y^2)),y/sqrt((x^2)+(y^2)))
+
+-Can you explain what a bump map is?
+It’s a collection of normals applied in such a way as to make an impression of small irregularities or bumps (hence the name) on a shape without having to use comparatively more expensive vertices.
