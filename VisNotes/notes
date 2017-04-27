@@ -26,7 +26,7 @@ A normal is a direction assigned to a vertex/surface which defines it’s colour
 UV mapping uses coordinates of vertices which form a face to apply a texture to. ST are transformed UV coordinates, which define an area of a texture to “cut from”.
 
 -What’s the difference between difference and distance?
-Difference is the angle between two vectors while distance is a vector which is a subtraction of two. LOOKUP	
+Difference is a subtraction of two vectors between each other, distance is the magnitude of the difference.
 
 -With respect to distances between vectors, what is the magnitude?
 Magnitude is the distance between the origin and a vector. 
